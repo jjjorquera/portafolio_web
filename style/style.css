@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+
+.linkCode {
+  cursor: none;
+}
+
+.main__title {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 10px 0px;
+  margin-bottom: 20px;
+}
+
+.Title__web {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  font-style: bold;
+}
