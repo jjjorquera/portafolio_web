@@ -26,3 +26,24 @@
   margin: auto;
   padding: 0px 8px 0px 14px;
 }
+
+footer {
+  background-color: #e2dbdb;
+  text-align: center;
+  padding: 20px;
+  /* Con esto solucionamos el sticly footer*/
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.about__me {
+  justify-content: center;
+  padding: 50px 0px 10px 0px;
+  margin-bottom: 20px;
+}
+.about__me__parrafo {
+  font-family: "New Amsterdam", sans-serif;
+  margin: 1rem 0px 0px;
+  font-size: 25px;
+}
