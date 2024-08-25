@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const email = document.getElementById("email").value.trim();
     const mensaje = document.getElementById("mensaje").value.trim();
 
-    console.log(nombre);
-    console.log(email);
-    console.log(mensaje);
+    // console.log(nombre);
+    // console.log(email);
+    // console.log(mensaje);
 
     //** este if esta optimizado ya que negamos desde el principio */
     if (!validateLength(nombre, 3)) {
