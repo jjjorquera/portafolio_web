@@ -28,11 +28,10 @@
 }
 
 footer {
-  background-color: #e2dbdb;
-  text-align: center;
+  justify-content: center;
   padding: 20px;
-  /* Con esto solucionamos el sticly footer*/
-  position: fixed;
+  display: flex;
+  position: static;
   left: 0;
   bottom: 0;
   width: 100%;
