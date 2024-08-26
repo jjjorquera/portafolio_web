@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       setError("errorArea", "El mensaje debe contener al menos 26 caracteres");
       isValid = false;
     }
+    sendmessage();
   }
 
   // aca validamos la longitud de los caracteres en el formulario web.
@@ -52,15 +53,5 @@ document.addEventListener("DOMContentLoaded", function () {
     const errorElement = document.getElementById(errorId);
     errorElement.textContent = message;
     errorElement.style.display = "block";
-  }
-
-  //* Limpiar los mensajes de error
-
-  function cleanErrors() {
-    const errorElement = document.querySelectorAll(".invalid-feedback");
-    // lo vamos aplicar en caso de que existan mas de un mensaje de error
-    errorElement.forEach((element) => {
-      element.style.display = "none";
-    });
   }
 });
